@@ -215,3 +215,48 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    width: 650px;
+  }
+  #main-container {
+      height: 960px;
+    }
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #logo {
+    box-sizing: inherit;
+    width: 120%;
+  }
+  #masthead {
+    position: static;
+    text-align: center;
+  }
+  .container nav {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .main-section img {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  #main-container {
+    padding-top: 0;
+  }
+  .work {
+    width: 100%;
+  }
+}
